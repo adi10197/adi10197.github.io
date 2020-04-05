@@ -1,0 +1,11 @@
+- name: Project Management
+  percentage: 70
+  color: info
+
+- name: Public Speaking
+  percentage: 60
+  color: success
+
+- name: Sound Engineering
+  percentage: 50
+  color: success

@@ -1,0 +1,19 @@
+- name: Computer Architecture
+  percentage: 70
+  color: dark
+
+- name: System Design
+  percentage: 65
+  color: green
+
+- name: Algorithms & Data Structures
+  percentage: 65
+  color: danger
+
+- name: Programming in Java/ JavaScript
+  percentage: 60
+  color: blue
+
+- name: Systems Programming
+  percentage: 40
+  color: pink
