@@ -32,17 +32,10 @@ synthesizable Verilog code. It also uses connects to communicate with benchmarks
 processor’s overheads and performance can thus be easily gauged.
 
 I worked on MIT CSAIL’s RISCY OoO processor, along with working and fixing their RISCY InOrder processor, for which 
-they had discontinued support. One of the postdocs on my team had designed a processor and submitted it to MICRO. 
-
+they had discontinued support. One of the Post-Docs on my team had designed a processor and submitted it to MICRO. 
 While implementing his processor, I found that the algorithm he used for identifying backward dependancy chains was 
-hardware heavy, and suggested an easier fix. Each entry of the reOrder buffer had to be checked to find each 
-instruction’s destination register, to find if the current instruction had any sources dependant on it. This prompted 
-wires from every index which had to be iteratively checked. 
-
-I suggested a Register dependancy table, since the number 
-of physical registers were indexed, and the right index could directly be accessed. This is a single example of many 
-such improvements I identified and implemented.
+hardware heavy, and suggested an easier fix.
 
 I also helped automate the BSV code to be extracted and built on FPGAs on AWS using bash scripting. This required a lot 
 of permission modifications since it included s3 buckets, AWS’s elastic file system, and split compilation between C4 
-(Compute centric but expensive) and F1 (general but relatively cheaper) instances.
+(compute centric but expensive) and F1 (generic but relatively cheaper) instances.
