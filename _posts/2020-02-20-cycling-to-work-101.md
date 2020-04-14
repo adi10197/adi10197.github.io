@@ -5,8 +5,6 @@ style: border
 color: primary
 description: This post is about cycling to and from work, and how to start out.
 ---
-# Cycling to Work 101
-
 ## Overview
 
 Hey! Now that you're here, I'd like to start by telling you what this article's about: cycling to and fro from work. Recreational cycling, although similar, does have different motivations, so this article shall not venture there.  

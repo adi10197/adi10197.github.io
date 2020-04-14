@@ -5,9 +5,6 @@ style: border
 color: primary
 description: Shortly put, it's Pass-By-Value. Inside though, is why it's so, and that's pretty interesting. Get in here to learn about why it's confusing in the first place, and a little about Java's Memory Management.
 ---
-
-# Java: Pass-by-Value or Pass-by-Reference?
-
 ## Overview
 I guess you're asking yourself why you, or anyone else for that matter, would spend much time on a question like this. I mean, this is the programming equivalent of whether Adam Sandler prefers baggy shorts or skinny jeans: Google will give you an answer, but the reasoning behind it would be quite abstract.  
 The reason I even got into this question, is, like always, because of an argument. I was a little wary at first and was almost going to accept it and move on, but a tiny peek under the hood gave me so much information that I just couldn't stop looking.

@@ -5,9 +5,6 @@ style: border
 color: primary
 description: Find out how your systems take your trash out for you. Or all the different ways they can do it in. Also find out why you'd benefit cleaning the decks in a particular way.
 ---
-
-# Garbage Collection 101
-
 ## Overview
 
 Garbage Collection **(GC)** is one of those topics we don't know the importance of, just because we haven't taken the time. It's used in all major enterprise programming languages and is an absolute necessity for scaling our applications.  
