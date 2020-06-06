@@ -125,10 +125,10 @@ https://w.amazon.com/bin/view/JVM_Best_Practices/GC_Log_SOPs/
 Above are 4 Full GC Events. Since allocation rates are only dependant on young generation space, we'll only be 
 considering Minor GCs. Notice how these GCs are only triggered on Allocation Failures.
 
-1. <span style="color:yellow">Yellow Encircling</span>: Young Generation Space reduction during Minor GC.
-2. <span style="color:cyan">Cyan Encircling</span>: Time taken to execute Minor GC.
-3. <span style="color:white">White Encircling</span>: Time taken to execute Major GC.
-4. <span style="color:green">Green Encircling</span>: Time at which Full GC began.
+1. <span style="color:darkkhaki">Yellow Encircling</span>: Young Generation Space reduction during Minor GC.
+2. <span style="color:blue">Cyan Encircling</span>: Time taken to execute Minor GC.
+3. <span style="color:black">White Encircling</span>: Time taken to execute Major GC.
+4. <span style="color:greenyellow">Green Encircling</span>: Time at which Full GC began.
 
 The calculation explained below isn't entirely accurate, but it does give an indication and a reasonable estimation for 
 the purposes of this exercise. 
@@ -163,10 +163,10 @@ Therefore, it can be calculated from the logs with the following logical formula
 
 ![promotionRate](../assets/img/posts/garbageCollection102/gcLogsPromotionRates.png)
 
-1. <span style="color:yellow">Yellow Encircling</span>: Time taken to execute Major GC.
-2. <span style="color:cyan">Cyan Encircling</span>: Young Generation Space reduction during Minor GC.
-3. <span style="color:white">White Encircling</span>: Time at which Full GC began.
-4. <span style="color:green">Green Encircling</span>: Heap Space reduction during Full GC.
+1. <span style="color:darkkhaki">Yellow Encircling</span>: Time taken to execute Major GC.
+2. <span style="color:blue">Cyan Encircling</span>: Young Generation Space reduction during Minor GC.
+3. <span style="color:black">White Encircling</span>: Time at which Full GC began.
+4. <span style="color:greenyellow">Green Encircling</span>: Heap Space reduction during Full GC.
 
 Calculating the individual components of the formula given above, 
 
