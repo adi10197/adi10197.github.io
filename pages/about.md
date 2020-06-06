@@ -5,8 +5,8 @@ permalink: /about/
 weight: 3
 ---
 
-<div id="container" class="my-2">
-    <h1><b class="align-items-left" style="vertical-align: center">About Me</b><img align="right" width="50%" style="border-radius: 8% 2% 2% 8%" src="../assets/img/aboutProfile.jpeg" alt="{{ site.title }}" class="wow animated slideInRight" data-wow-delay=".25s"></h1>
+<div id="container" class="my-2" style="vertical-align: center">
+    <h1><b class="align-items-left">About Me</b><img align="right" width="50%" style="border-radius: 8% 2% 2% 8%" src="../assets/img/aboutProfile.jpeg" alt="{{ site.title }}" class="wow animated slideInRight" data-wow-delay=".25s"></h1>
 </div>
 
 Hey, I'm **{{ site.author.name }}**.<br>
