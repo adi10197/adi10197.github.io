@@ -5,10 +5,9 @@ permalink: /about/
 weight: 3
 ---
 
-# **About Me**
-
 <div id="container" class="my-2">
-    <img src="../assets/img/aboutProfile.jpeg" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".25s">
+    <h1 class="align-items-left"><b>About Me</b></h1>
+    <img src="../assets/img/aboutProfile.jpeg" alt="{{ site.title }}" class="align-items-right wow animated slideInRight" data-wow-delay=".25s">
 </div>
 
 Hey, I'm **{{ site.author.name }}**.<br>
