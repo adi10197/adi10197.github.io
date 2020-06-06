@@ -31,23 +31,11 @@ body {
 }
 
 .circle-image {
+    width: 50%;
     height: 50%;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
-}
-
-.circular--portrait {
-    position: relative;
-    //width: 200px;
-    //height: 200px;
-    overflow: hidden;
-    border-radius: 50%;
-}
-
-.circular--portrait img {
-    width: 50%;
-    height: auto;
 }
 
 // Footer
