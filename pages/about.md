@@ -7,7 +7,7 @@ weight: 3
 
 <div id="container" class="my-2">
     <h1 class="align-items-left"><b>About Me</b></h1>
-    <img align="right" width="50%" style="border-radius: 2%" src="../assets/img/aboutProfile.jpeg" alt="{{ site.title }}" class="wow animated slideInRight" data-wow-delay=".25s">
+    <img align="right" width="50%" style="border-radius: 8% 2% 2% 8%" src="../assets/img/aboutProfile.jpeg" alt="{{ site.title }}" class="wow animated slideInRight" data-wow-delay=".25s">
 </div>
 
 Hey, I'm **{{ site.author.name }}**.<br>
