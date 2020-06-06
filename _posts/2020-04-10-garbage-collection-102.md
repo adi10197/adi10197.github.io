@@ -5,10 +5,9 @@ style: border
 color: primary
 description: While Garbage Collection 101 explained certain concepts, this article will apply them to find out how you can optimise your systems. 
 ---
-
-_Disclaimer: While the last [article](https://adi10197.github.io/articles/garbage-collection-101) was generic, this one 
+**Disclaimer: While the last [article](https://adi10197.github.io/articles/garbage-collection-101) was generic, this one 
 might be a little technical. I've majorly focused on the Java Virtual Machine and the Java Development Kit. I've 
-included links to explanatory articles wherever possible._
+included links to explanatory articles wherever possible.**
  
 ## Overview
 
@@ -245,7 +244,7 @@ Note: JVM will not start if both CMS and G1 are present in the configuration.
 
 ### G1 GC Tuning
 
-####Basic
+#### Basic
 
 Firstly, G1 doesn't like to be tuned by you. Throw out your old heap config switches, and just specify the bare minimum.
 
@@ -261,7 +260,7 @@ Firstly, G1 doesn't like to be tuned by you. Throw out your old heap config swit
 
 If you run into issues, the first thing to try is to try increasing maximum heap size.
 
-####Advanced: Common FAQs
+#### Advanced: Common FAQs
 
 **Caution: In general, do not attempt to tune G1 GC unless you know for sure what you're doing.**
 
@@ -293,11 +292,6 @@ Is there a quick way to fix it?"**
    here, so only enable this if you absolutely know what you're doing, or if you're using this in an experimental
    capacity. Deep diving and root causing the repercussions might be a monumental task.
 
-------------------------------------------------------------------------------------------------------------------
-
-I really hope this helped. Garbage collection is an enigma, and I'm myself in no way an expert. Reading about this is 
-really fun, and I thought I'd share the essentials of what I've learnt. :)
-
 ## References
 
 Most of this is just me reading up different sources on the internet and jotting the essentials down.
@@ -306,3 +300,6 @@ Most of this is just me reading up different sources on the internet and jotting
 2.  Discussions with peers and Senior Devs @ Amazon.
 
 Honestly, a whole bunch of Googling ending up in sites I don't remember helped a lot too.
+
+I really hope this helped. Garbage collection is an enigma, and I'm myself in no way an expert. Reading about this is 
+really fun, and I thought I'd share the essentials of what I've learnt. :)
