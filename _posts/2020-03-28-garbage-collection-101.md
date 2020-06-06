@@ -36,7 +36,7 @@ GC first defines some points in Heap Memory as **GC Roots**. These roots are of 
 
 The below image gives an accurate description of what happens in the mark phase.
 
-![markPhase](../assets/img/post/garbageCollection/gc_mark.jpg)
+![markPhase](../assets/img/posts/garbageCollection101/gc_mark.jpg)
 
 Starting from the Roots, GC then traverses throughout all reachable objects in the Heap, marking them. These are termed as **live objects** or **survivors**. The objects which can't be reached are termed **Non-Reachable Objects** as can be seen in the image, and are the ones which will be **removed**, explained in the next section.
 
@@ -58,7 +58,7 @@ This approach basically looks at the Sweep algorithm and addresses it's shortcom
 
 The downside, is GC latency. It's only logical that copying all these alive objects from their original memory locations into the beginning of Heap and deleting them from their previous location would take longer than just sweeping through them. Also, if GC is performed quite frequently, this could lead to higher Disk Utilisation.
 
-![markSweepCompact](../assets/img/post/garbageCollection/markSweepCompact.jpg)
+![markSweepCompact](../assets/img/posts/garbageCollection101/markSweepCompact.jpg)
 
 #### Copy
 
@@ -70,7 +70,7 @@ Now that we've talked about GC's basic components, let's look at the methods in 
 
 ### Generational Memory
 
-![jvm](../assets/img/post/garbageCollection/jvm_memory1.jpg)
+![jvm](../assets/img/posts/garbageCollection101/jvm_memory1.jpg)
 
 1.  **Eden Space**: This is where all new objects are allocated memory. **Minor GC** (explained later) runs in this region.
 
@@ -88,7 +88,7 @@ Terminology wise, a **Full GC** cycle is one in which both Minor and Major GC ru
 
 1.  **Minor GC**: Uses Mark-Copy for the Young Generation.
 
-![minorSeriesGC](../assets/img/post/garbageCollection/minorSeriesGC.jpg)
+![minorSeriesGC](../assets/img/posts/garbageCollection101/minorSeriesGC.jpg)
 
 4.  **Major GC**: Uses Mark-Sweep-Compact for the Old Generation.
 
@@ -98,7 +98,7 @@ As the name implies, these are single threaded collectors, triggering stow-the-w
 
 Exactly similar Minor and Major GC implementations as Serial GC, with the exception that this can handle Multi - Core systems with ease. Below is an image depicting a Full GC. (Minor + Major)
 
-![fullParallelGC](../assets/img/post/garbageCollection/fullParallelGC.jpg)
+![fullParallelGC](../assets/img/posts/garbageCollection101/fullParallelGC.jpg)
 
 1.  All cores run GC cycles (Minor or Major) concurrently, leading to shorter pauses.
 2.  No core's GC consumes any resources in between 2 cycles.
@@ -116,7 +116,7 @@ Designed to avoid long pauses compacting the Old Generation. As explained before
 
 Latest innovation by Oracle which tosses the Generational Memory Model out the window.
 
-![g1Hol](../assets/img/post/garbageCollection/g1Hol.jpg)
+![g1Hol](../assets/img/posts/garbageCollection101/g1Hol.jpg)
 
 1.  The entire Heap is divided into a number of (typically 2048) smaller regions. Mark Phase runs **concurrently** when the overall occupancy of the heap is large enough, 45% by default, finding regions of maximum garbage.
 2.  Sweep then goes after only these regions, tackling other regions iteratively. It also has dedicated threads continuously working on reducing **Fragmentation**.

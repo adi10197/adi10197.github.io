@@ -56,7 +56,7 @@ Now that we've seen the pessimist's approach, let's see the opportunist's.
 
 3.  **Traffic**
 
-    ![Cycle_Amidst_Traffic](../assets/img/post/cyclingToWork101/cycletraffic.jpg)
+    ![Cycle_Amidst_Traffic](../assets/img/posts/cyclingToWork101/cycletraffic.jpg)
 
     If you live in a busy city with a poor traffic management system, this is the absolute best way to commute. I happen to live in such a city: Bangalore, India, and it gives me immense satisfaction to see the cars lined up, stuck in traffic as I whiz past them.
 
@@ -79,7 +79,7 @@ These are some weird useful things I've learnt, which might help you.
 
     You need to make sure your seat is slightly above the handle bar, and you're able to **almost** extend your leg while cycling.
 
-    ![Cycle_Amidst_Traffic](../assets/img/post/cyclingToWork101/cyclingposture.jpeg)
+    ![Cycle_Amidst_Traffic](../assets/img/posts/cyclingToWork101/cyclingposture.jpeg)
     
 2.  **Weather**
 

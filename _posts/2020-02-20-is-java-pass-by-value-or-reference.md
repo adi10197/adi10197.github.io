@@ -60,22 +60,22 @@ This is what happens in **Java**, and I've included examples below to prove it.
 
 Here's the code snippet.
 
-![PrimitivesTypeTestCode](../assets/img/post/javaValueOrReference/PrimitivesTypeTestCode.jpg)
+![PrimitivesTypeTestCode](../assets/img/posts/javaValueOrReference/PrimitivesTypeTestCode.jpg)
 
 And here's the result derived. Notice that there's no difference between before and after the function is invoked, just like in `swapThemByVal`'s case.
 
-![PrimitivesTypeTestResult](../assets/img/post/javaValueOrReference/PrimitivesTypeTestResult.jpg)
+![PrimitivesTypeTestResult](../assets/img/posts/javaValueOrReference/PrimitivesTypeTestResult.jpg)
 
 ### Proof its Pass-by-Reference: ObjectsTypeTest
 
 Well, we proved above, that particular method signature in Java, means Pass-by-Value right? Apparently not. Behold, the exact same method signature.
 
-![ObjectsTypeTestCode](../assets/img/post/javaValueOrReference/ObjectsTypeTestCode.jpg)
+![ObjectsTypeTestCode](../assets/img/posts/javaValueOrReference/ObjectsTypeTestCode.jpg)
 
 And what do the results say? That the modifications inside the function, changed the original!  
 Note: Don't pay attention to the red encircling just yet, we'll get to it in a minute.
 
-![ObjectsTypeTestResult](../assets/img/post/javaValueOrReference/ObjectsTypeTestResult.jpg)
+![ObjectsTypeTestResult](../assets/img/posts/javaValueOrReference/ObjectsTypeTestResult.jpg)
 
 It's quite puzzling, and truth be told, also worrisome if you dabble daily in huge code - bases of enterprise - level Java. That's why I decided to try and understand why.
 
@@ -97,7 +97,7 @@ Java has 2 structures with the help of which it allocates memory, the stack, and
 
 **Memory management in Java**
 
-![JavaMemManagement](../assets/img/post/javaValueOrReference/javaMemManagement.jpg)
+![JavaMemManagement](../assets/img/posts/javaValueOrReference/javaMemManagement.jpg)
 
 There's obviously a lot more to Stack and Heap Memory, especially the concept of **Garbage Collection**. (which I'll be covering in a later post)  
 I've only listed the information pertinent to the post.
