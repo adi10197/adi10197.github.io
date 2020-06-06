@@ -1,5 +1,5 @@
 ---
-title: "Garbage Collection 101"
+title: "Garbage Collection 103"
 tags: [System Design, Code Concepts, Garbage Collection]
 style: border
 color: primary
