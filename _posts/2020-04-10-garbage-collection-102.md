@@ -5,9 +5,9 @@ style: border
 color: primary
 description: While Garbage Collection 101 explained certain concepts, this article will apply them to find out how you can optimise your systems. 
 ---
-**Disclaimer: While the last [article](https://adi10197.github.io/articles/garbage-collection-101) was generic, this one 
+_Disclaimer: While the last [article](https://adi10197.github.io/articles/garbage-collection-101) was generic, this one 
 might be a little technical. I've majorly focused on the Java Virtual Machine and the Java Development Kit. I've 
-included links to explanatory articles wherever possible.**
+included links to explanatory articles wherever possible._
  
 ## Overview
 
