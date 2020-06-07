@@ -7,8 +7,8 @@ weight: 3
 
 # **About Me**
 
-<div id="container" class="my-2">
-    <img src="../assets/img/aboutProfile2.jpeg" alt="{{ site.title }}" align="left" class="circle-image wow animated fadeIn" data-wow-delay=".15s">
+<div id="container" class="my-2 wow animated fadeIn" data-wow-delay=".25s">
+    <img src="../assets/img/aboutProfile2.jpeg" alt="{{ site.title }}" align="left" class="circle-image wow animated slideInLeft" data-wow-delay=".15s">
 </div>
 
 Hey, I'm **{{ site.author.name }}**.<br>
