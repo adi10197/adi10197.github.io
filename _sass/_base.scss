@@ -38,6 +38,44 @@ body {
     object-position: center;
 }
 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    .circle-image {
+        width: 50%;
+        height: 50%;
+        border-radius: 7% 20% 20% 7%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    .circle-image {
+        width: 40%;
+        height: 40%;
+        border-radius: 7% 20% 20% 7%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+    .circle-image {
+        width: 35%;
+        height: 35%;
+        border-radius: 7% 20% 20% 7%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
 // Footer
 .social {
     text-decoration: none !important;
