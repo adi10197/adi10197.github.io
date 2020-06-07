@@ -1,19 +1,24 @@
 - name: Computer Architecture
-  percentage: 70
+  stage: Advanced
+  percentage: 95
   color: dark
 
 - name: System Design
-  percentage: 65
+  stage: Advanced
+  percentage: 80
   color: green
 
+- name: Programming in Java/ JavaScript
+  stage: Advanced
+  percentage: 80
+  color: blue
+
 - name: Algorithms & Data Structures
+  stage: Advanced Intermediatory
   percentage: 65
   color: danger
 
-- name: Programming in Java/ JavaScript
-  percentage: 60
-  color: blue
-
 - name: Systems Programming
-  percentage: 40
+  stage: Intermediatory
+  percentage: 50
   color: pink
