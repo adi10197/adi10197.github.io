@@ -116,8 +116,6 @@ We'll delve into each of these parameters while explaining GC tuning.
 
 ### Interpreting GC Logs
 
-https://w.amazon.com/bin/view/JVM_Best_Practices/GC_Log_SOPs/
-
 #### Calculating Allocation Rate
 
 ![allocationRate](../assets/img/posts/garbageCollection102/gcLogsAllocationRates.png)
