@@ -45,7 +45,7 @@ and (max-device-width : 480px) {
     .circle-image {
         width: 50%;
         height: 50%;
-        border-radius: 7% 20% 20% 7%;
+        border-radius: 50%;
         object-fit: cover;
         object-position: center;
     }
@@ -56,9 +56,9 @@ and (max-device-width : 480px) {
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
     .circle-image {
-        width: 40%;
-        height: 40%;
-        border-radius: 7% 20% 20% 7%;
+        width: 30%;
+        height: 30%;
+        border-radius: 50%;
         object-fit: cover;
         object-position: center;
     }
@@ -68,9 +68,9 @@ and (max-device-width : 1024px) {
 @media only screen
 and (min-width : 1224px) {
     .circle-image {
-        width: 35%;
-        height: 35%;
-        border-radius: 7% 20% 20% 7%;
+        width: 27.5%;
+        height: 27.5%;
+        border-radius: 50%;
         object-fit: cover;
         object-position: center;
     }
